@@ -8,7 +8,7 @@ import { ArregloService } from 'src/app/service/arreglo.service';
 })
 export class ComponenteBComponent implements OnInit {
 
-  arreglo = '';
+  arreglo: any;
   
   constructor(private service: ArregloService) { }
 
